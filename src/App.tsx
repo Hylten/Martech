@@ -200,7 +200,7 @@ function App() {
         <div className="flex items-center gap-4">
           {/* WhatsApp - super discreet */}
           <a
-            href="https://wa.me/46701619978?text=Regarding%20Operational%20Alpha.%20%0A%0A"
+            href="https://wa.me/46701619978?text=Regarding%20Operational%20Alpha.%20"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-500 transition-colors"
