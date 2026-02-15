@@ -42,10 +42,10 @@ function App() {
 
           <button
             onClick={openLogin}
-            className="flex items-center gap-2 text-[10px] tracking-[0.2em] text-gray-500 hover:text-oldgold transition-colors group uppercase"
+            className="flex items-center gap-1.5 text-gray-700 hover:text-gray-500 transition-colors group"
+            title="Restricted Access"
           >
             <Lock className="w-3 h-3 group-hover:text-oldgold transition-colors" />
-            Restricted Access
           </button>
         </div>
       </header>
@@ -186,9 +186,9 @@ function App() {
       {/* FOOTER */}
       <footer className="absolute bottom-0 left-0 w-full z-50 px-8 py-6 border-t border-white/5 flex justify-between items-center text-[10px] text-gray-600 tracking-widest uppercase bg-obsidian/90 backdrop-blur-sm">
         <div className="flex items-center gap-4">
-          <span className="flex items-center gap-2">
-            <ShieldCheck className="w-3 h-3" />
-            SECURE ENVIRONMENT
+          <span className="flex items-center gap-2 text-gray-700 text-[9px] normal-case tracking-wider">
+            <ShieldCheck className="w-2.5 h-2.5 text-gray-700" />
+            Secure environment
           </span>
           <span className="hidden md:inline text-gray-800">|</span>
           <span className="hidden md:flex items-center gap-2 text-gray-700 text-[9px] normal-case tracking-wider">
@@ -200,7 +200,7 @@ function App() {
         <div className="flex items-center gap-4">
           {/* WhatsApp - super discreet */}
           <a
-            href="https://wa.me/46701619978?text=Regarding%20Operational%20Alpha.%20"
+            href="https://wa.me/46701619978?text=Regarding%20Operational%20Alpha.%20%0A%0A"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-gray-500 transition-colors"
